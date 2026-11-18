@@ -1,18 +1,10 @@
+
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "headers": [
+  "rewrites": [
     {
-      "source": "/hosts.txt",
-      "headers": [
-        {
-          "key": "Content-Type",
-          "value": "text/plain; charset=utf-8"
-        },
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=60, must-revalidate"
-        }
-      ]
+      "source": "/android/1773",
+      "destination": "https://dash.gtps.cloud/android/1773"
     }
   ]
 }
